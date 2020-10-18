@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'FitSound'
-copyright = '2020, Antonello Izzi'
-author = 'Antonello Izzi'
+project = "FitSound"
+copyright = "2020, Antonello Izzi"
+author = "Antonello Izzi"
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.0'
+release = "0.0.0"
 
 
 # -- General configuration ---------------------------------------------------
@@ -33,7 +33,7 @@ release = '0.0.0'
 extensions = ["sphinxcontrib.plantuml", "sphinx.ext.todo"]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -46,12 +46,12 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'bizstyle'
+html_theme = "bizstyle"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ["_static"]
 
 plantuml = "java -jar C:/Users/ai239/AppData/Local/Plantuml/plantuml.jar"
 numfig = True
